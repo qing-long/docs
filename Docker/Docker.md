@@ -44,52 +44,52 @@
 ## **本地运行服务：**
 1. 运行ubuntu:  
    1. 获取ubuntu镜像，并进入 `ubuntu bash`
-        ```
+        ```bash
         docker run -it ubuntu bash
         ```
 2. 运行mysql:
    1. 获取 `mysql 5.7` 镜像
-        ```
+        ```bash
         docker run -d --name Mysql -p 127.0.0.1:3306:3306 -e MYSQL_ROOT_PASSWORD=admin mysql:5.7
         ```
    2. 进入 `mysql bash` 
-        ```
+        ```bash
         docker exec -it Mysql bash
         ```
    3. 启动 `mysql`服务
-        ```
+        ```bash
         service mysql start
         ```
    4. 登陆 `mysql`
-        ```
+        ```bash
         mysql -uroot -padmin
         ```
 3. 运行redis:
    1. 获取 `redis` 镜像
-        ```
+        ```bash
         docker run -d -name Redis -p 6379:6379 redis
         ```
    2. 进入 `redis bash` 
-        ```
+        ```bash
         docker exec -it Redis bash
         ```
    3. 登陆 `redis`
-        ```
+        ```bash
         redis-cli -h 127.0.0.1 -p 6379
         ```
     4. 获取当前密码
-        ```
+        ```bash
         config get requirepass
         ```
     5. 设置登陆密码
-        ```
+        ```bash
         config set requirepass "admin"
         ```
 
 ## **列出镜像**
 
 要想列出已经下载下来的镜像，可以使用  `docker image ls ` 命令。  
-```
+```bash
 $ docker image ls -a
 REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
 a                   latest              7612964fbe74        32 hours ago        88.9MB
@@ -98,7 +98,7 @@ mysql               latest              91dadee7afee        12 days ago         
 hello-world         latest              fce289e99eb9        2 months ago        1.84kB
 ```
 通过 `docker system df` 命令来便捷的查看镜像、容器、数据卷所占用的空间。
-```
+```bash
 $ docker system df
 TYPE                TOTAL               ACTIVE              SIZE                RECLAIMABLE
 Images              4                   4                   565.9MB             88.91MB (15%)
@@ -111,22 +111,22 @@ Build Cache         0                   0                   0B                  
 ## **Dockerfile 编写**
 
 1. 创建 `test_for_dockerfile` 目录  
-    ```
-        mkdir test_for_dockerfile
+    ```bash
+    mkdir test_for_dockerfile
     ```
 2. 进入 `test_for_dockerfile` 目录  
-    ```
+    ```bash
     cd test_for_dockerfile
     ```
 3. 创建 `Dockerfile` 文件并编辑  
-    ```
+    ```bash
     vim Dockerfile
     ```
 4. 编译 `Dockerfile` 文件  
-    ```
+    ```bash
     docker build -t a .
     ```
 5. 运行 `Dockerfile` 文件
-    ```
+    ```bash
     docker run a
     ```
