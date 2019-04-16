@@ -6,7 +6,7 @@ COPY . .
 
 RUN npm install -g gitbook-cli && \
     apt update && \
-    apt install -y nginx &&
+    apt install -y nginx && \
     gitbook init &&
     cp -r _book/* /usr/share/nginx/html
 
