@@ -1,6 +1,8 @@
 FROM node:11-slim
 
-RUN npm install -g gitbook-cli && apt install -y nginx
+RUN npm install -g gitbook-cli && \
+    apt update && \
+    apt install -y nginx
 
 WORKDIR /usr/share/nginx/html
 
