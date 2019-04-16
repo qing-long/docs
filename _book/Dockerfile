@@ -13,4 +13,4 @@ RUN npm install -g gitbook-cli && \
 
 EXPOSE 80
 
-CMD ["gitbook", "serve", "."]
+CMD ["nginx", "-g", "daemon off;"]
