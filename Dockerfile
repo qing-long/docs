@@ -1,13 +1,15 @@
 FROM node:11-slim
 
+WORKDIR /book
+
+COPY . .
+
 RUN npm install -g gitbook-cli && \
     apt update && \
-    apt install -y nginx
-
-WORKDIR /usr/share/nginx/html
-
-ADD . /usr/share/nginx/html
+    apt install -y nginx &&
+    gitbook init &&
+    cp -r _book/* /usr/share/nginx/html
 
 EXPOSE 80
 
-CMD ["service", "nginx", "start"]
+CMD ["nginx", "-g", "daemon off;"]
