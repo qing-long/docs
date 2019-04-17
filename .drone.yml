@@ -16,8 +16,8 @@ steps:
   image: appleboy/drone-ssh
   pull: true
   settings:
-    host: 120.78.94.190
-    port: 22
+    host: buglan.org
+    port: 28379
     user: root
     key:
       from_secret: deploy_key
