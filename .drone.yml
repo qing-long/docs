@@ -16,8 +16,8 @@ steps:
   image: appleboy/drone-ssh
   pull: true
   settings:
-    host: buglan.org
-    port: 28379
+    host: miix.cc
+    port: 22
     user: root
     key:
       from_secret: deploy_key
