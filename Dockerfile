@@ -9,6 +9,4 @@ RUN npm install -g gitbook-cli http-server && \
 WORKDIR /book/_app
 EXPOSE 4000
 
-RUN  
-EXPOSE 4000
 CMD [ "http-server", "-g", "-a", "0.0.0.0", "-p", "4000" ]
