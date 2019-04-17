@@ -5,12 +5,9 @@ WORKDIR /book
 COPY . .
 
 RUN npm install -g gitbook-cli && \
-    apt update && \
-    apt install -y nginx && \
     gitbook init && \
-    cp -r _book/* /usr/share/nginx/html && \
-    service nginx restart
+    cd _book
 
 EXPOSE 80
 
-CMD ["gitbook", "serve", "."]
+CMD ["http-server", "-a", "0.0.0.0", "-p", "4000"]
