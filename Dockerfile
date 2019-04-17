@@ -1,13 +1,11 @@
 FROM node:11
 
 WORKDIR /book
-
-COPY . /book
-
-RUN npm install -g gitbook-cli && \
+COPY . .
+RUN npm install -g gitbook-cli http-server && \
     gitbook init && \
-    gitbook build
-
+    gitbook install && \
+ (gitbook build . _app || gitbook build . _app)
+WORKDIR /book/_app
 EXPOSE 4000
-
-CMD ["gitbook", "serve", "."]
+CMD [ "http-server", "-g", "." ]
