@@ -3,7 +3,7 @@ FROM node:11
 WORKDIR /book
 COPY . .
 RUN npm install -g gitbook-cli http-server && \
-    gitbook init && \
+    gitbook init
 
 EXPOSE 4000
 
