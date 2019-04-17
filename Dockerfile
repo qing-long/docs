@@ -2,7 +2,7 @@ FROM node:11
 
 WORKDIR /book
 
-COPY . .
+COPY . /book
 
 RUN npm install -g gitbook-cli && \
     gitbook init && \
