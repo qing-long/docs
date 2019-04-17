@@ -16,7 +16,7 @@ steps:
   image: appleboy/drone-ssh
   pull: true
   settings:
-    host: miix.cc
+    host: 120.78.94.190
     port: 22
     user: root
     key:
