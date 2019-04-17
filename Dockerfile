@@ -6,6 +6,7 @@ COPY . .
 
 RUN npm install -g gitbook-cli && \
     gitbook init && \
+    pwd && \
     cd _book
 
 EXPOSE 80
