@@ -6,9 +6,8 @@ COPY . .
 
 RUN npm install -g gitbook-cli && \
     gitbook init && \
-    pwd && \
-    cd _book
+    gitbook build
 
-EXPOSE 80
+EXPOSE 4000
 
-CMD ["http-server", "-a", "0.0.0.0", "-p", "4000"]
+CMD ["gitbook", "serve", "."]
