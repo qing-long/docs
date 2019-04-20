@@ -32,15 +32,15 @@
 
 - javascript
     - [typescript](https://www.typescriptlang.org/) [中文](https://www.tslang.cn/)
-    - [yarn] [中文](https://yarnpkg.com/zh-Hans/)
-    - [npm] [中文](https://www.npmjs.cn/)
+    - [yarn](https://yarnpkg.com/en/) [中文](https://yarnpkg.com/zh-Hans/)
+    - [npm](https://www.npmjs.com/) [中文](https://www.npmjs.cn/)
     - [javascript](https://www.javascript.com/)
-    - [Vue] [中文](https://cn.vuejs.org/index.html)
-    - [React] [中文](https://react.docschina.org/)
+    - [Vue](https://vuejs.org/index.html) [中文](https://cn.vuejs.org/index.html)
+    - [React](https://reactjs.org/) [中文](https://react.docschina.org/)
     - [Angular](https://angularjs.org/)
-    - [Axios] [中文](https://www.kancloud.cn/yunye/axios/234845)
-    - [vue-router] [中文](https://router.vuejs.org/zh/)
-    - [javascript 正则表达式] [中文](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Regular_Expressions)
+    - [Axios](https://github.com/axios/axios) [中文](https://www.kancloud.cn/yunye/axios/234845)
+    - [vue-router](https://router.vuejs.org/) [中文](https://router.vuejs.org/zh/)
+    - [JavaScript 正则表达式](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) [中文](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Regular_Expressions)
 
 - others
     - [docker docs](https://docs.docker.com/reference/)
