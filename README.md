@@ -1,6 +1,6 @@
 # 青龙学习小分队 docs
 
-> 欢迎pr
+> 欢迎 pull request
 
 ## 必看文档
 
