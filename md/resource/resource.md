@@ -31,10 +31,10 @@
     - [Spring](https://spring.io/)
 
 - javascript
-    - [typescript](https://www.typescriptlang.org/) [中文](https://www.tslang.cn/)
-    - [yarn](https://yarnpkg.com/en/) [中文](https://yarnpkg.com/zh-Hans/)
+    - [TypeScript](https://www.typescriptlang.org/) [中文](https://www.tslang.cn/)
+    - [Yarn](https://yarnpkg.com/en/) [中文](https://yarnpkg.com/zh-Hans/)
     - [npm](https://www.npmjs.com/) [中文](https://www.npmjs.cn/)
-    - [javascript](https://www.javascript.com/)
+    - [JavaScript](https://www.javascript.com/)
     - [Vue](https://vuejs.org/index.html) [中文](https://cn.vuejs.org/index.html)
     - [React](https://reactjs.org/) [中文](https://react.docschina.org/)
     - [Angular](https://angularjs.org/)
