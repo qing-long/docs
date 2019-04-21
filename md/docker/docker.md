@@ -117,13 +117,13 @@ Build Cache         0                   0                   0B                  
 ## **Dockerfile 编写**
 
 ```shell
-#1. 创建 `test_for_dockerfile` 目录  
+#1. 创建 `test_for_dockerfile` 目录
     mkdir test_for_dockerfile
-#2. 进入 `test_for_dockerfile` 目录  
+#2. 进入 `test_for_dockerfile` 目录
     cd test_for_dockerfile
-#3. 创建 `Dockerfile` 文件并编辑  
+#3. 创建 `Dockerfile` 文件并编辑
     vim Dockerfile
-#4. 编译 `Dockerfile` 文件  
+#4. 编译 `Dockerfile` 文件
     docker build -t a .
 #5. 运行 `Dockerfile` 文件
     docker run a

@@ -62,26 +62,23 @@
 - [jsfiddle](https://jsfiddle.net/): 前端代码在线演示的网站
 - [看云](https://www.kancloud.cn/): 文档在线创作、协作和托管
 - [check tor](https://check.torproject.org/): 检查是否处于tor网络下
+- [explianshell](https://www.explainshell.com/): 给出shell命令的解释
 
 
 
 ## 开源书籍
 - 自动化
     - [docker从入门到实践](https://yeasy.gitbooks.io/docker_practice/content/)
-
 - 工具
     - [Pro Git 中文版](http://git.oschina.net/progit/)
-
 - javaScript
     - [JavaScript入门教程](https://wangdoc.com/javascript/)
     - [ES6标准入门-阮一峰](http://es6.ruanyifeng.com/)
     - [JavaScript 正则表达式迷你书](https://github.com/qdlaoyao/js-regex-mini-book)
     - [clean-code-javascript](https://github.com/beginor/clean-code-javascript)
     - [clean-code-typtscript](https://github.com/beginor/clean-code-typescript)
-
 - python
     - [Python CookBook](https://python3-cookbook.readthedocs.io/zh_CN/latest/)
-
 - go
     - [Go 语言官方教程中文版](https://github.com/Go-zh/tour)
     - [Go语言圣经中文版](https://github.com/golang-china/gopl-zh)
@@ -91,10 +88,10 @@
     - [Google 开源项目风格指南 (中文版)](https://github.com/zh-google-styleguide/zh-google-styleguide)
     - [Efficient Go双语版](https://legacy.gitbook.com/book/bingohuang/effective-go-zh-en)
     - [Go Web 编程](https://astaxie.gitbooks.io/build-web-application-with-golang/zh/)
-
 - 计算机网络
     - [计算机网络:自顶向下方法 第六版](https://github.com/myk502/Top-Down-Approach)
-
+- shell
+    - [shell 谷歌风格指南](<https://zh-google-styleguide.readthedocs.io/en/latest/google-shell-styleguide/contents/>)
 - 其他
     - [提问的智慧中文版](ttps://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md)
 
