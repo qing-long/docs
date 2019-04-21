@@ -63,6 +63,7 @@
 - [看云](https://www.kancloud.cn/): 文档在线创作、协作和托管
 - [check tor](https://check.torproject.org/): 检查是否处于tor网络下
 - [explianshell](https://www.explainshell.com/): 给出shell命令的解释
+- [端口扫描](http://old.tool.chinaz.com/port/): 端口扫描
 
 
 
@@ -127,13 +128,13 @@
 - [bat](https://github.com/sharkdp/bat) 用来代替cat
 - [htop](https://github.com/hishamhm/htop) 用来代替top
 - [tldr](https://github.com/tldr-pages/tldr): 更简短的文档
-- [curl](https://github.com/curl/curl) 
+- [curl](https://github.com/curl/curl)
 - [httpie](https://github.com/jakubroztocil/httpie): 提供比curl更加友好的高亮和格式
 - [wget](https://github.com/mirror/wget): 命令行下载工具
 - [tor](https://www.torproject.org/): tor高密网络
 
 
-## Chrome插件 
+## Chrome插件
 
 - [GitCodeTree](https://gitee.com/inu1255/GitCodeTree) 码云github都能用的目录树插件
 - [Ads Killer Adblocker Plus](https://chrome.google.com/webstore/detail/ads-killer-adblocker-plus/pgbllmbdjgcalkoimdfcpknbjgnhjclg) 广告屏蔽插件

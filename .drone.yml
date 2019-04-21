@@ -24,6 +24,9 @@ steps:
     script:
     - docker pull buglan/gitbook-docs:latest
     - docker rm -f docs
-    - echo "almost done"
     - docker run --name=docs -p 4000:4000 -d buglan/gitbook-docs
-    - echo 'success'
+
+- name: notify
+  image: plugins/gitter
+  settings:
+    webhook: https://webhooks.gitter.im/e/bf9402f8c689cffaf87c
