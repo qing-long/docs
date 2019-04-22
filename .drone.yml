@@ -5,12 +5,12 @@ steps:
 - name: publish
   image: plugins/docker:latest
   settings:
+    auto_tag: true
     username:
       from_secret: docker_username
     password:
       from_secret: docker_password
     repo: buglan/gitbook-docs
-    tags: latest
 
 - name: deploy
   image: appleboy/drone-ssh
@@ -25,6 +25,7 @@ steps:
     - docker pull buglan/gitbook-docs:latest
     - docker rm -f docs
     - docker run --name=docs -p 4000:4000 -d buglan/gitbook-docs
+    - docker image prune -f
 
 - name: notify
   image: plugins/gitter
