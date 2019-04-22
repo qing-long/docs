@@ -7,20 +7,20 @@ steps:
   settings:
     auto_tag: true
     username:
-      from_secret: docker_username
+      from_secret: username
     password:
-      from_secret: docker_password
+      from_secret: password
     repo: buglan/gitbook-docs
 
 - name: deploy
   image: appleboy/drone-ssh
   pull: true
   settings:
-    host: qing-long.club
-    port: 22
+    host: buglan.org
+    port: 28379
     user: root
     key:
-      from_secret: deploy_key
+      from_secret: key
     script:
     - docker pull buglan/gitbook-docs:latest
     - docker rm -f docs
