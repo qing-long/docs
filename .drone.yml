@@ -5,12 +5,12 @@ steps:
 - name: publish
   image: plugins/docker:latest
   settings:
+    repo: buglan/gitbook-docs
     auto_tag: true
     username:
       from_secret: u
     password:
       from_secret: p
-    repo: buglan/gitbook-docs
 
 - name: deploy
   image: appleboy/drone-ssh
