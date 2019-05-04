@@ -10,4 +10,3 @@ WORKDIR /book/_app
 EXPOSE 4000
 
 CMD [ "http-server", "-g", "-a", "0.0.0.0", "-p", "4000" ]
-
