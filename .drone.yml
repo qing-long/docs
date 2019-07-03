@@ -1,0 +1,33 @@
+kind: pipeline
+name: gitbook-docs
+
+steps:
+- name: publish
+  image: plugins/docker:latest
+  settings:
+    repo: buglan/gitbook-docs
+    auto_tag: true
+    username:
+      from_secret: u
+    password:
+      from_secret: p
+
+- name: deploy
+  image: appleboy/drone-ssh
+  pull: true
+  settings:
+    host: qing-long.club
+    port: 22
+    user: root
+    key:
+      from_secret: k
+    script:
+    - docker pull buglan/gitbook-docs:latest
+    - docker rm -f docs
+    - docker run --name=docs -p 4000:4000 -d buglan/gitbook-docs
+    - docker image prune -f
+
+- name: notify
+  image: plugins/gitter
+  settings:
+    webhook: https://webhooks.gitter.im/e/bf9402f8c689cffaf87c
