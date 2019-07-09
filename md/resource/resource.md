@@ -65,6 +65,7 @@
 - [explianshell](https://www.explainshell.com/): 给出shell命令的解释
 - [端口扫描](http://old.tool.chinaz.com/port/): 端口扫描
 - [可视化布局系统](https://www.bootcss.com/p/layoutit/): 不需要再写前端代码，鼠标拖拽即可完成布局
+- [Redis命令大全](http://redis.cn/commands.html): Redis命令大全，中文翻译，[英文原版](https://redis.io/commands)
 
 
 
