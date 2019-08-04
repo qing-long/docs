@@ -8,19 +8,22 @@
     - [软技能：代码之外的生存指南](https://book.douban.com/subject/26835090/)
     - [图解HTTP](https://book.douban.com/subject/25863515/)
     - [黑客与画家](https://book.douban.com/subject/6021440/)
-
+    - [代码整洁之道](https://book.douban.com/subject/4199741/)
+    - [重构: 改善既有的代码的设计](https://book.douban.com/subject/4262627/)
+    - [代码整洁之道](https://book.douban.com/subject/4199741/)
 - python
     - [流畅的python](https://book.douban.com/subject/27028517/)
 
-## 官方文档
+## 文档
 
 - python
     - [python](https://docs.python.org/3/) [中文](https://docs.python.org/zh-cn/3/)
     - [pytest](https://docs.pytest.org/en/latest/)
-    - [Flask](http://flask.pocoo.org/)
-    - [Django](https://www.djangoproject.com)
-    - [Celery](http://www.celeryproject.org/)
+    - [flask](http://flask.pocoo.org/)
+    - [django](https://www.djangoproject.com)
+    - [celery](http://www.celeryproject.org/)
     - [lxml](https://lxml.de/)
+    - pytest
 
 - go
     - [gorm中文](https://jasperxu.github.io/gorm-zh/)
